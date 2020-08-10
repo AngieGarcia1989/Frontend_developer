@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Mulish:wght@200&display=swap" rel="stylesheet">
     <title>header</title>
 </head>
 <style>
 body {
     margin: 0px;
+    font-family: 'Comfortaa', cursive;
     background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #17171b 100%);
+
 
 }
 .header {
     background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #17171b 100%);
-
     width: 100%;
     height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .header__img {
     width: 95px;
@@ -27,7 +30,7 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #17171b 100%);
     }
 
    .header__menu{
-       margin-right: 30px;
+       margin-right: 90px;
 
    }
 
@@ -39,12 +42,43 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #17171b 100%);
        width: 100px;
        text-align: right;
        margin: 0px 0px 0px -14px;
+
    }
+
+
+    .header__menu:hover ul, ul:hover {
+    display: block;
+    }
+
+    .header__menu li{
+       margin: 10px 0px;
+   }
+
+   .header__menu li a { 
+       color: white;
+       text-decoration: none;
+   }
+
+    .header__menu li a:hover{
+ text-decoration: underline;
+    }
 
    .header__menu--profile{
        margin-right:8px ;
        width: 40px;
+       display: flex;
+       align-items: center;
+   }
 
+   .header__menu--profile img{
+       margin-right:8px ;
+       
+     
+   }
+
+   .header__menu--profile p{
+       margin:0px ;
+     color: white;
    }
 
 </style>
@@ -53,12 +87,12 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #17171b 100%);
         <img  class="header__img" src="./imagenes/log1.jpg" alt="logoangie">
         <div class="header__menu">
           <div class="header__menu--profile">
-              <img src="./imagenes/icons8-usuario-50.png" alt="user">
-              <p>perfil</p>
+              <img src="./imagenes/user-icon.png" alt="user">
+              <p>Perfil</p>
           </div>
           <ul>
-              <li><a href=""></a>cuenta</li>
-              <li><a href=""></a>cerrar Sesion</li>
+              <li><a href="/">Cuenta</a></li>
+              <li><a href="/">Cerrar Sesion</a></li>
           </ul>
         </div>
     </header>
