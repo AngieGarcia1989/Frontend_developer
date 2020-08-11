@@ -13,6 +13,7 @@ body {
 }
 .header__img {
     width: 95px;
+    height: 95px;
     margin-top: 5px;
     margin-left: 15px;
     border-radius: 50%;
@@ -82,7 +83,7 @@ flex-direction: column;
 }
 
 .button{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.3);
     color: white;
     border-radius: 25px;
     border: none;
