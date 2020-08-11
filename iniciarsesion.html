@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        font-family: 'Comfortaa', cursive;
+        background-color: #7374D4;
+    
+    
+    }
+    .header {
+        background-color: #7374D4;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__img {
+        width: 95px;
+        margin-top: 5px;
+        margin-left: 15px;
+        border-radius: 50%;
+        }
+</style>
+    <body>
+        <header class="header">
+            <img  class="header__img" src="./imagenes/log1.jpg" alt="logoangie">
+        </header>
+        <section class="login">
+            <section class="login__container">
+                <h2>Inicia sesión</h2>
+                <form class="login__container--form"> 
+                    <input class="input" type="text" placeholder="Correo">
+                    <input class="input" type="password" placeholder="Contraseña">
+                    <button class="button">Iniciar sesión</button>
+                    <div class="login__container--rememberme">
+                        <label>
+                            <input type="checkbox" name="" id="cbox1 value=checkbox">Recuerdame
+                        </label>
+                    <a href="/">Olvidé mi contraseña</a>
+                    </div>
+                </form>
+                <section class="login__container--socialmedia">
+                <div><img src="./imagenes/google.png" alt="google">Inicia sesión con Google</div>
+                <div><img src="./imagenes/tweeter.png" alt="tweeter">Inicia sesión con Twitter</div>
+                </section>
+                <p class="login__container--register">No tienes ninguna cuenta <a href="" >Registrate</a></p>
+            </section>
+        </section>
+        <footer>
+            <a href="/">Términos de uso</a>
+            <a href="/">Declaración de privacidad</a>
+            <a href="/">Centro de ayuda</a>
+        </footer>
+</body>
+</html>
