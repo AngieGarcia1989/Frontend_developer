@@ -4,7 +4,7 @@ body {
     
 }
 .header {
-    background-color: #ff5d8f;
+    background-color: #56cfe1;
     width: 100%;
     height: 80px;
     display: flex;
@@ -19,7 +19,7 @@ body {
     }
 
 .login{
-    background: linear-gradient(#ff5d8f,#f5cac3);
+    background: linear-gradient(#56cfe1,#6930c3);
     display: flex;
    align-items: center;
     justify-content:center ;
@@ -45,50 +45,19 @@ display: flex;
 flex-direction: column;
 }
 
-.login__container--form label{
-font-size: 14px;
-}
 
-.login__container--rememberme{
-color: white;
-display: flex;
-justify-content: space-between;
-margin-top: 10px;
-}
-
-.login__container--rememberme a{
-color:white;
-font-size: 14px;
-text-decoration: none;
-}
-
-.login__container--rememberme a:hover{
-    
-    text-decoration: underline;
-    }
-
-.login__container--socialmedia > div{
-display: flex;
-align-items: center;
-font-size: 14px;
-margin-bottom: 10px;
-}    
-
-.login__container--socialmedia > div > img{
-   width: 30px;
-   margin-right: 10px;
-    }    
-    
 .login__container--register {
+    color:white;
     font-size: 14px;
-}    
-
-.login__container--register a {
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
     text-decoration: none;
-} 
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}    
 
 .login__container--register a:hover{
     text-decoration: underline;
@@ -113,7 +82,7 @@ margin-bottom: 10px;
 }
 
 .button{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
     color: white;
     border-radius: 25px;
     border: none;
@@ -127,7 +96,7 @@ margin-bottom: 10px;
 }
 
 footer{
-    background-color: #f5cac3;
+    background-color: #6930c3;
     display: flex;
     align-items: center;
     height: 100px;
@@ -135,7 +104,7 @@ footer{
 }
 
 footer a{
-    color:rgb(114, 107, 107);
+    color:white;
     cursor:pointer;
     font-size: 14px;
     padding-left: 30px;
